@@ -1,0 +1,30 @@
+// Import all of Bootstrap's CSS
+@import "bootstrap/scss/bootstrap";
+
+/** Testimonial slider CSS start **/
+.testimonial-slider .slider-container {
+  margin-left: 60px;
+  margin-right: 60px;
+  padding: 40px;
+  text-align: center;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blueviolet !important;
+}
+
+/** Change current active slider style **/
+.testimonial-slider .slick-center {
+  border-radius: 100px;
+  background-color: brown !important;
+}
+
+/** Change next slider style **/
+.testimonial-slider .slick-current + div {
+  background-color: green !important;
+}
+
+.left-slick-container{
+    background-color: blueviolet !important;
+}
